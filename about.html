@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+    name="description"
+    content="Learn more about Patricia, , Patricia Pereira is a front-end engineer based in Portugal."
+    <title>Read all about Patricia - Patricia Pereira</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,6 +38,32 @@
  
 </head>
 <body>
+          <div class="container">
+        <nav class="d-flex justHomepageify-content-between">
+      <a href="/" title=""></a>
+          <img src="src/logo.png" 
+      class="logo d-none d-md-block" 
+      alt="Patricia logo" />
+      <img src="src/mini-logo.jpg"
+      class="logo d-block d-md-none"
+      alt="Patricia logo"
+      />
+      <ul>
+        <li>
+          <a href="/" title="Homepage">Home</a>
+        </li>
+        <li class="active">
+          <a href="/about.html" title="About Patricia">About</a>
+        </li>
+        <li>
+          <a href="/work.html" title="Patricia's Work">Work</a></li>
+        <li>
+          <a href="/contact.html" title="Contact Patricia">Contact</a>
+        </li>
+      </ul>
+     
+    </nav>
+  </div>
     <div class="content-container container">
         <div class="row">
             <div class="col-lg-6">
@@ -44,15 +73,44 @@
     <p class="mb-4">
         For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different exercises, and everything is well explained, homework and deadlines are good for keeping focus.
     </p>
-    <a href="" class="btn btn-branding">See my projects</a>
+    <a href="/work.html" class="btn btn-branding">See my projects</a>
     </div>
     </div>
     <div class="col-lg-6">
     <img src="src/patriciaheadshot.png" 
-    alt="" 
+    alt="Photo of Patricia" 
     class="img-fluid" />
     </div>
 </div>
 </div>
+<footer class="container">
+        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+          <div>
+          <div>
+            <h4>
+            Work Inquiry
+          </h4>
+          <div>
+          <p class="text-muted">
+            Let's work Together
+          </p>
+          </div>
+          <a href="/contact.html" class="btn btn-branding" alt="Contact Page">Contact Me</a>
+          </div>
+        </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:patricia@gmail.com" class="email-link">patricia@gmail.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://wwww.instagram.com/patricia" target="_blank" title="Instagram Page"><i class="fa-brands fa-instagram"></i></a>
+          <a href="http://www.github.com/patricia" target="_blank" title="Github Profile"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.facebook.com/patricia" target="_blank" title="Facebook Page"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by SheCodes, and it is 
+          <a href="https://github.com/AmberShea">open-sourced</a>
+        </p>
+      </footer>
 </body>
 </html>
